@@ -42,7 +42,7 @@ void screen_store(String file_input, String text_top, String text_bottom,  Strin
   
   imgInput = loadImage(file_input); 
   imgInput.resize(460, 0);
-  // center image on background (manual offseting)
+  // center image on background (manual offsetting)
   image(imgInput, (608 - imgInput.width) / 2 , (1080 - imgInput.height + 25) / 2);
  
   // place top rect
